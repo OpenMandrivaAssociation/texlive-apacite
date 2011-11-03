@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /biblio/bibtex/contrib/apacite
+# catalog-date 2009-03-02 14:44:34 +0100
+# catalog-license lppl
+# catalog-version 4.05
 Name:		texlive-apacite
 Version:	4.05
 Release:	1
@@ -66,6 +72,7 @@ author index for a document.
 %doc %{_texmfdistdir}/source/latex/apacite/apacite.drv
 %doc %{_texmfdistdir}/source/latex/apacite/apacite.dtx
 %doc %{_texmfdistdir}/source/latex/apacite/apacite.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -76,3 +83,5 @@ author index for a document.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
