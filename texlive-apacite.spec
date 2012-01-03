@@ -6,7 +6,7 @@
 # catalog-version 4.05
 Name:		texlive-apacite
 Version:	4.05
-Release:	1
+Release:	2
 Summary:	Citation style following the rules of the APA
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/apacite
