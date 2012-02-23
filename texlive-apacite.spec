@@ -1,12 +1,12 @@
-# revision 15878
+# revision 25402
 # category Package
 # catalog-ctan /biblio/bibtex/contrib/apacite
-# catalog-date 2009-03-02 14:44:34 +0100
+# catalog-date 2012-02-15 11:48:26 +0100
 # catalog-license lppl
-# catalog-version 4.05
+# catalog-version 6.00
 Name:		texlive-apacite
-Version:	4.05
-Release:	2
+Version:	6.00
+Release:	1
 Summary:	Citation style following the rules of the APA
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/apacite
@@ -20,14 +20,15 @@ Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
 %description
-Apacite is a BibTeX style which closely follows American
-Psychological Association style citations, providing a very
-good match. The package follows the the 5th edition of the APA
-manual, and provides up to date documentation and a test
-document. The package is compatible with chapterbib and (to
-some extent) with hyperref (for limits of compatibility, see
-the manual). The package also includes a means of generating an
-author index for a document.
+Apacite provides a BibTeX style and a LaTeX package which are
+designed to match the requirements of the American
+Psychological Association's style for citations. The package
+follows the 6th edition of the APA manual, and is designed to
+work with the apa6 class. A test document is provided. The
+package is compatible with chapterbib and (to some extent) with
+hyperref (for limits of compatibility, see the documentation).
+The package also includes a means of generating an author index
+for a document.
 
 %post
     %{_sbindir}/texlive.post
@@ -55,13 +56,14 @@ author index for a document.
 %{_texmfdistdir}/tex/latex/apacite/norsk.apc
 %{_texmfdistdir}/tex/latex/apacite/spanish.apc
 %{_texmfdistdir}/tex/latex/apacite/swedish.apc
-%doc %{_texmfdistdir}/doc/latex/apacite/README
-%doc %{_texmfdistdir}/doc/latex/apacite/apa5ex.bib
-%doc %{_texmfdistdir}/doc/latex/apacite/apacite.pdf
+%doc %{_texmfdistdir}/doc/bibtex/apacite/README
+%doc %{_texmfdistdir}/doc/bibtex/apacite/apa5ex.bib
+%doc %{_texmfdistdir}/doc/bibtex/apacite/apacite.pdf
+%doc %{_texmfdistdir}/doc/bibtex/apacite/apacxmpl.tex
 #- source
-%doc %{_texmfdistdir}/source/latex/apacite/apacite.drv
-%doc %{_texmfdistdir}/source/latex/apacite/apacite.dtx
-%doc %{_texmfdistdir}/source/latex/apacite/apacite.ins
+%doc %{_texmfdistdir}/source/bibtex/apacite/apacite.drv
+%doc %{_texmfdistdir}/source/bibtex/apacite/apacite.dtx
+%doc %{_texmfdistdir}/source/bibtex/apacite/apacite.ins
 
 #-----------------------------------------------------------------------
 %prep
