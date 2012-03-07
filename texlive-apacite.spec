@@ -1,11 +1,11 @@
-# revision 25402
+# revision 25515
 # category Package
 # catalog-ctan /biblio/bibtex/contrib/apacite
-# catalog-date 2012-02-15 11:48:26 +0100
+# catalog-date 2012-02-26 23:50:03 +0100
 # catalog-license lppl
-# catalog-version 6.00
+# catalog-version 6.01
 Name:		texlive-apacite
-Version:	6.00
+Version:	6.01
 Release:	1
 Summary:	Citation style following the rules of the APA
 Group:		Publishing
