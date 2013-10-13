@@ -1,12 +1,12 @@
-# revision 25515
+# revision 31264
 # category Package
 # catalog-ctan /biblio/bibtex/contrib/apacite
-# catalog-date 2012-02-26 23:50:03 +0100
+# catalog-date 2013-07-22 09:44:36 +0200
 # catalog-license lppl
-# catalog-version 6.01
+# catalog-version 6.03
 Name:		texlive-apacite
-Version:	6.01
-Release:	2
+Version:	6.03
+Release:	1
 Summary:	Citation style following the rules of the APA
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/apacite
@@ -74,30 +74,3 @@ for a document.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Fri Mar 09 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 6.01-2
-+ Revision: 783481
-- rebuild without scriptlet dependencies
-
-* Wed Mar 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 6.01-1
-+ Revision: 782957
-- Update to latest release.
-
-* Thu Feb 23 2012 Paulo Andrade <pcpa@mandriva.com.br> 6.00-1
-+ Revision: 779415
-- Update to latest release.
-
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 4.05-2
-+ Revision: 749285
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 4.05-1
-+ Revision: 717842
-- texlive-apacite
-- texlive-apacite
-- texlive-apacite
-- texlive-apacite
-- texlive-apacite
-
