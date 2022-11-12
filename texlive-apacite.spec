@@ -5,9 +5,9 @@ Summary:	Citation style following the rules of the APA
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/apacite
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/apacite.r54080.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/apacite.doc.r54080.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/apacite.source.r54080.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/apacite.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/apacite.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/apacite.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
