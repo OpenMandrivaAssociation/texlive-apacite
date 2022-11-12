@@ -1,19 +1,13 @@
-# revision 31264
-# category Package
-# catalog-ctan /biblio/bibtex/contrib/apacite
-# catalog-date 2013-07-22 09:44:36 +0200
-# catalog-license lppl
-# catalog-version 6.03
 Name:		texlive-apacite
-Version:	6.03
-Release:	10
+Version:	54080
+Release:	1
 Summary:	Citation style following the rules of the APA
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/apacite
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/apacite.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/apacite.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/apacite.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/apacite.r54080.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/apacite.doc.r54080.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/apacite.source.r54080.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -31,12 +25,12 @@ The package also includes a means of generating an author index
 for a document.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -67,7 +61,8 @@ for a document.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
