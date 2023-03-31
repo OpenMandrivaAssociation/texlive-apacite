@@ -1,6 +1,6 @@
 Name:		texlive-apacite
 Version:	54080
-Release:	1
+Release:	2
 Summary:	Citation style following the rules of the APA
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/apacite
