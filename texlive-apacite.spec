@@ -3,7 +3,7 @@ Version:	54080
 Release:	2
 Summary:	Citation style following the rules of the APA
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/apacite
+URL:		https://www.ctan.org/tex-archive/biblio/bibtex/contrib/apacite
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/apacite.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/apacite.doc.r%{version}.tar.xz
